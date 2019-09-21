@@ -1,0 +1,26 @@
+{
+    "header": {
+        "main": "Anasayfa",
+        "materials": "Materyaller",
+        "recipes": "Tarifler",
+        "toys": "Oyuncaklar",
+        "mounts": "Binekler",
+        "changelog": "Güncellemeler"
+    },
+    "notFound": {
+        "number": "404",
+        "message": "Bunun üzerinde çalışıyoruz!"
+    },
+    "main": {
+
+    },
+    "materials": {
+        "content": {
+            "id": "ID",
+            "icon": "İkon",
+            "name": "Ad",
+            "type": "Tip",
+            "expansion": "Expansion"
+        }
+    }
+}

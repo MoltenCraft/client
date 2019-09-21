@@ -1,0 +1,50 @@
+{
+    "header": {
+        "main": "Main",
+        "materials": "Materials",
+        "recipes": "Recipes",
+        "toys": "Toys",
+        "mounts": "Mounts",
+        "changelog": "Changelog"
+    },
+    "notFound": {
+        "number": "404",
+        "message": "We're working on it!"
+    },
+    "main": {
+
+    },
+    "materials": {
+        "bar": {
+            "firstDisabled": "Select Expansion",
+            "bfa": "Battle For Azeroth",
+            "legion": "Legion",
+            "wod": "Warlords of Dreanor",
+            "mop": "Mist of Pandaria",
+            "cataclysm": "Cataclysm",
+            "wotlk": "Wrath of the Lich King",
+            "tbc": "The Burning Crusade",
+            "classic": "Classic",
+            "vanilla": "Vanilla",
+            "secondDisabled": "Select Type",
+            "herb": "Herb",
+            "ore": "Ore",
+            "leather": "Leather",
+            "cloth": "Cloth",
+            "disenchant": "Disenchant",
+            "fish": "Fish",
+            "meat": "Meat",
+            "find": "Find"
+        },
+        "notice": {
+            "text": "We didn't found any item | 1 item found. | {n} items found."
+        },
+        "content": {
+            "id": "ID",
+            "icon": "Icon",
+            "name": "Name",
+            "type": "Type",
+            "expansion": "Expansion"
+        }
+    }
+}

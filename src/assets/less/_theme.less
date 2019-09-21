@@ -1,0 +1,156 @@
+@import '../../../node_modules/uikit/src/less/uikit';
+@import './font';
+
+@inverse-global-color-mode: none;
+@navbar-color-mode: none;
+
+html {
+    &[data-theme="light"] {
+        --background: --background;
+        --text-color: --text-color;
+    }
+
+    &[data-theme="dark"] {
+        // Button, Text
+        --success: #32d296;
+        --info: #faa05a;
+        --danger: #f0506e;
+
+        // Text
+        --font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --text-color: #E5E5E5;
+        --emphasis-color: #333;
+        --muted-color: #999;
+        --ins-background: #393D51;
+        --ins-color: var(--text-color);
+        --mark-background: #393D51;
+        --mark-color: var(--text-color);
+
+        // Link
+        --link-color: #ff5733;
+        --link-hover-color: #E5E5E5;
+
+        // Border
+        --border-color: #3f4046;
+
+        // Backgrounds
+        --background: #232531;
+        --success-background: #32d296;
+        --warning-background: #faa05a;
+        --danger-background: #f0506e;
+
+        // Pre
+        --pre-color: var(--text-color);
+
+        // Notifications
+        --notif-bg-color: #3D3D3D;
+    }
+}
+
+::-moz-selection {
+    background: #000;
+    color: #fff; }
+  
+  ::selection {
+    background: #000;
+    color: #fff; }
+
+.hook-base-body() {
+    font-family: var(--font-family);
+    background: var(--background);
+    color: var(--text-color);
+}
+
+.hook-base-link() {
+    -webkit-app-region: no-drag;
+    color: var(--link-color);
+    transition: all .3s ease 0s;
+}
+
+.hook-base-link-hover() {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+.hook-navbar-nav-item() {
+    color: var(--link-hover-color);
+    font-family: var(--font-family);
+    text-decoration: none!important;
+    position: relative;
+    &:after {
+        content: "";
+        background: linear-gradient(to right, #c70039, #ff5733 70%);
+        width: 0;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: .3s all ease-in-out;
+    }
+    &.router-link-exact-active {
+        color: var(--link-color);
+    }
+}
+
+.hook-navbar-nav-item-hover() {
+    color: var(--link-color);
+    &:hover {
+        color: var(--link-color);
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.hook-base-heading() {
+    font-family: var(--font-family);
+    background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(50%, #ff5733));
+    background: -webkit-linear-gradient(left, #c70039, #ff5733 50%);
+    background: -o-linear-gradient(left, #c70039, #ff5733 50%);
+    background: linear-gradient(to right, #c70039, #ff5733 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hook-tooltip() {
+    background: var(--mark-background);
+    color: var(--link-color);
+    border-radius: 5px;
+}
+
+.hook-notification-message() {
+    font-size: 1em;
+    text-align: center;
+    font-family: var(--font-family);
+    background: var(--mark-background);
+    border-radius: 7px;
+    color: var(--text-color);
+}
+
+.hook-form-single-line {
+    font-size: .8em;
+    color: var(--text-color);
+    background: var(--border-color);
+}
+
+.hook-button-default {
+    color: var(--link-color);
+    background-color: var(--border-color);
+}
+
+.hook-button-default-hover {
+    color: var(--link-hover-color);
+    background-color: var(--link-color);
+}
+
+.hook-table-header-cell {
+    color: var(--link-color);
+}
+
+.hook-table-hover {
+    background: #232323;
+}
+
+.hook-table-divider {
+    border-color: var(--border-color);
+}
