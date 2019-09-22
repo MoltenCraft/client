@@ -1,10 +1,10 @@
 ---
 name: Bug Report
-about: Report incorrect or unexpected behavior of moltenData
+about: Report incorrect or unexpected behavior of moltenCraft
 ---
 
 <!--
-If you need help with moltenData installation or usage, please go to the moltenData Discord server instead:
+If you need help with moltenCraft installation or usage, please go to the moltenCraft Discord server instead:
   https://discord.gg/{code}
 This issue tracker is only for bug reports and enhancement suggestions. You won't receive any basic help here.
 -->
@@ -18,7 +18,7 @@ This issue tracker is only for bug reports and enhancement suggestions. You won'
 
 **Further details:**
 
-- moltenData version:
+- moltenCraft version:
 - node.js version:
 - Operating system:
 - Priority this issue should have – please be realistic and elaborate if possible:

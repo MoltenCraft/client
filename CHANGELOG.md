@@ -16,4 +16,4 @@
 ### Security
 
 
-[0.0.1]: https://github.com/kendinikertenkelebek/{projectName}/releases/tag/{version}
+[0.0.1]: https://github.com/kendinikertenkelebek/moltenCraft/releases/tag/{version}

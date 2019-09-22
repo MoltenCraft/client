@@ -54,7 +54,7 @@ export default {
   <div class="uk-section tm-section-texture uk-preserve-color">
         <div class="uk-section" uk-height-viewport="expand: true">
             <div class="uk-container uk-container-small">
-                <h1 class="uk-margin-medium uk-text-center">Changelog</h1>
+                <h1 class="uk-margin-medium uk-text-center">{{ $t('changelogs.header') }}</h1>
                 <div ref="logs"></div>
             </div>
         </div>

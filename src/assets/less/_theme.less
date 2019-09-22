@@ -35,7 +35,9 @@ html {
 
         // Backgrounds
         --background: #232531;
-        --secondary-background: #222;
+        --background-section-primary: --background;
+        --secondary-background: rgba(34,34,34,0.98);
+        --table-hover-background: #232323;
         --success-background: #32d296;
         --warning-background: #faa05a;
         --danger-background: #f0506e;
@@ -56,28 +58,28 @@ html {
     background: #000;
     color: #fff; }
 
-.hook-base-body() {
+.hook-base-body {
     font-family: var(--font-family);
     background: var(--background);
     color: var(--text-color);
 }
 
-.hook-base-link() {
+.hook-base-link {
     -webkit-app-region: no-drag;
     color: var(--link-color);
     transition: all .3s ease 0s;
 }
 
-.hook-base-link-hover() {
+.hook-base-link-hover {
     color: var(--link-hover-color);
     text-decoration: none;
 }
 
-.hook-base-code{
+.hook-base-code {
     background: var(--notif-bg-color);
 }
 
-.hook-base-heading() {
+.hook-base-heading {
     font-family: var(--font-family);
     background: -webkit-gradient(linear, left top, right top, from(#c70039), color-stop(50%, #ff5733));
     background: -webkit-linear-gradient(left, #c70039, #ff5733 50%);
@@ -87,7 +89,7 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
-.hook-navbar-nav-item() {
+.hook-navbar-nav-item {
     color: var(--link-hover-color);
     font-family: var(--font-family);
     text-decoration: none!important;
@@ -107,7 +109,7 @@ html {
     }
 }
 
-.hook-navbar-nav-item-hover() {
+.hook-navbar-nav-item-hover {
     color: var(--link-color);
     &:hover {
         color: var(--link-color);
@@ -124,37 +126,37 @@ html {
     }
 }
 
-.hook-nav-primary-item-hover{
+.hook-nav-primary-item-hover {
     color: var(--link-color);
 }
 
-.hook-label{
+.hook-label {
     color: var(--secondary-background);
 }
 
-.hook-label-success{
+.hook-label-success {
     color: var(--secondary-background);
 }
 
-.hook-label-warning{
+.hook-label-warning {
     color: var(--secondary-background);
 }
 
-.hook-label-danger{
+.hook-label-danger {
     color: var(--secondary-background);
 }
 
-.uk-label-deprecated{
+.uk-label-deprecated {
     background-color: var(--link-hover-color);
 }
 
-.hook-tooltip() {
+.hook-tooltip {
     background: var(--mark-background);
     color: var(--link-color);
     border-radius: 5px;
 }
 
-.hook-notification-message() {
+.hook-notification-message {
     font-size: 1em;
     text-align: center;
     font-family: var(--font-family);
@@ -184,7 +186,7 @@ html {
 }
 
 .hook-table-hover {
-    background: #232323;
+    background: var(--table-hover-background);
 }
 
 .hook-table-divider {
@@ -193,4 +195,8 @@ html {
 
 .hook-navbar-container {
     background: var(--secondary-background);
+}
+
+.hook-section-primary {
+    background: var(--background-section-primary);
 }

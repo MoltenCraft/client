@@ -1,10 +1,10 @@
 ---
 name: Feature Request
-about: Request a new feature that moltenData is missing
+about: Request a new feature that moltenCraft is missing
 ---
 
 <!--
-If you need help with moltenData installation or usage, please go to the moltenData Discord server instead:
+If you need help with moltenCraft installation or usage, please go to the moltenCraft Discord server instead:
   https://discord.gg/{code}
 This issue tracker is only for bug reports and enhancement suggestions. You won't receive any basic help here.
 -->

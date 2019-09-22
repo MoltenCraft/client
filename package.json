@@ -1,5 +1,5 @@
 {
-  "name": "moltendata",
+  "name": "moltencraft",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,12 +37,12 @@
       "groupPR": "Update ${dependency} in group ${group} to the latest!"
     }
   },
-  "homepage": "https://github.com/kendinikertenkelebek/{repoName}#readme",
+  "homepage": "https://github.com/kendinikertenkelebek/moltenCraft#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kendinikertenkelebek/{repoName}.git",
+    "url": "git+https://github.com/kendinikertenkelebek/moltenCraft.git",
     "bugs": {
-      "url": "https://github.com/kendinikertenkelebek/{repoName}/issues"
+      "url": "https://github.com/kendinikertenkelebek/moltenCraft/issues"
     }
   },
   "author": "Yankı Küçük <kendinikertenkelebek@me.com> (https://github.com/kendinikertenkelebek)",

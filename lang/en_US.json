@@ -4,16 +4,22 @@
         "materials": "Materials",
         "recipes": "Recipes",
         "toys": "Toys",
-        "mounts": "Mounts",
-        "downloads": "Downloads",
-        "changelog": "Changelog"
+        "mounts": "Mounts"
     },
     "notFound": {
         "number": "404",
         "message": "We're working on it!"
     },
     "main": {
-
+        "promotion": {
+            "text1": "A lightweight and modular front-end framework",
+            "text2": "for developing fast and powerful web interfaces."
+        },
+        "download": "Download",
+        "api": "API",
+        "version": "Version",
+        "community": "Community",
+        "changelogs": "Changelogs"
     },
     "materials": {
         "bar": {
@@ -47,5 +53,12 @@
             "type": "Type",
             "expansion": "Expansion"
         }
+    },
+    "recipes": {},
+    "toys": {},
+    "mounts": {},
+    "download": {},
+    "changelogs": {
+        "header": "Changelogs"
     }
 }
