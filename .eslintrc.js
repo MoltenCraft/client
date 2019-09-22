@@ -19,8 +19,13 @@ module.exports = {
     }]
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    ecmaVersion: 2017,
+    sourceType: 'module'
   },
+  plugins: [
+    'vue'
+  ],
   settings: {
     'vue-i18n': {
       localeDir: './lang/*.json'

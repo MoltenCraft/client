@@ -4,7 +4,8 @@
         "materials": "Materials",
         "recipes": "Recipes",
         "toys": "Toys",
-        "mounts": "Mounts"
+        "mounts": "Mounts",
+        "transmogs": "Transmogs"
     },
     "notFound": {
         "number": "404",
@@ -12,8 +13,9 @@
     },
     "main": {
         "promotion": {
-            "text1": "A lightweight and modular front-end framework",
-            "text2": "for developing fast and powerful web interfaces."
+            "text1": "MoltenCraft is the best way to search items,",
+            "text2": "create collections and export these collections for",
+            "text3": "TSM4 or other addOns/platforms!"
         },
         "download": "Download",
         "api": "API",
