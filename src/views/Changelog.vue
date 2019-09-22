@@ -19,13 +19,15 @@ export default {
           case 'Added':
             label = 'uk-label-success'
             break
-          case 'Removed':
-          case 'Deprecated':
+          case 'Fixed':
             label = 'uk-label-warning'
             break
-          case 'Fixed':
+          case 'Removed':
           case 'Security':
             label = 'uk-label-danger'
+            break
+          case 'Deprecated':
+            label = 'uk-label-deprecated'
         }
         return `<li class="uk-flex uk-flex-top">
                   <span class="uk-label ${label} uk-margin-right uk-text-center uk-width-small tm-label-changelog uk-flex-none">${section}</span>
