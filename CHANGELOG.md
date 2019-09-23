@@ -1,19 +1,23 @@
 # Changelog
 
-## [Unreleased]
-
-## 0.0.1 - (YYYY-MM-DD)
+## Work in Progress
 ### Added
-
-### Changed
-
-### Deprecated
-
-### Removed
+- Materials tab to website menu
+- Changelogs for updates
+- API link to main page
+- Temporary logo to website
+- [FontAwesome](https://fontawesome.com) to website
+- Multi-Language Support
 
 ### Fixed
+- Code linting and website code style
 
-### Security
+### Changed
+- Website theme
 
+### Removed
+- Changelogs and Downloads tab from website menu
 
-[0.0.1]: https://github.com/kendinikertenkelebek/moltenCraft/releases/tag/{version}
+## 0.1.0 - (September 23, 2019)
+### Added
+- Inital Commit

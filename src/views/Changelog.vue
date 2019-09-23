@@ -5,7 +5,7 @@ import axios from 'axios'
 export default {
   name: 'Changelog',
   mounted () {
-    axios.get('https://raw.githubusercontent.com/uikit/uikit/develop/CHANGELOG.md')
+    axios.get('https://raw.githubusercontent.com/MoltenCraft/client/master/CHANGELOG.md')
       .then(response => { this.$refs.logs.innerHTML = this.parse(response.data) })
   },
   methods: {

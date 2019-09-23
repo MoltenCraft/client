@@ -4,7 +4,7 @@ import axios from 'axios'
 export default {
   name: 'Main',
   mounted () {
-    axios.get('https://raw.githubusercontent.com/WeakAuras/WeakAuras-Companion/master/package.json').then(response => {
+    axios.get('https://raw.githubusercontent.com/MoltenCraft/client/master/package.json').then(response => {
       this.$refs.version.innerText = response.data.version
     })
   }
