@@ -7,15 +7,15 @@
 <p align="center">
   <!-- <a><img src="https://img.shields.io/circleci/build/github/kendinikertenkelebek/moltenCraft/master?style=flat-square&token=abc123" alt="Build"></a> -->
   <!-- <a><img src="https://img.shields.io/codacy/grade/abc123?style=flat-square" alt="Grade"></a> -->
-  <a><img src="https://img.shields.io/david/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Dependencies"></a>
+  <a><img src="https://img.shields.io/david/MoltenCraft/client?style=flat-square" alt="Dependencies"></a>
   <a><img src="https://badges.greenkeeper.io/MoltenCraft/client.svg?style=flat-square" alt="Greenkeeper"></a>
-  <a><img src="https://img.shields.io/github/issues/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Issues"></a>
-  <a><img src="https://img.shields.io/github/package-json/v/kendinikertenkelebek/moltenCraft/master?style=flat-square" alt="Version"></a>
-  <a><img src="https://img.shields.io/github/languages/code-size/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Code Size"></a>
-  <!-- <a><img src="https://img.shields.io/github/stars/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Stars"></a> -->
+  <a><img src="https://img.shields.io/github/issues/MoltenCraft/client?style=flat-square" alt="Issues"></a>
+  <a><img src="https://img.shields.io/github/package-json/v/MoltenCraft/client/master?style=flat-square" alt="Version"></a>
+  <a><img src="https://img.shields.io/github/languages/code-size/MoltenCraft/client?style=flat-square" alt="Code Size"></a>
+  <!-- <a><img src="https://img.shields.io/github/stars/MoltenCraft/client?style=flat-square" alt="Stars"></a> -->
   <!-- <a><img src="https://img.shields.io/discord/{id}?style=flat-square" alt="Discord"></a> -->
-  <a><img src="https://img.shields.io/github/contributors/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Contributors"></a>
-  <a><img src="https://img.shields.io/github/license/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Licance"></a>
+  <a><img src="https://img.shields.io/github/contributors/MoltenCraft/client?style=flat-square" alt="Contributors"></a>
+  <a><img src="https://img.shields.io/github/license/MoltenCraft/client?style=flat-square" alt="Licance"></a>
 </p>
 
 # About
@@ -76,11 +76,11 @@ And you can see also all contributors [here][contributors].
 [express.js]: https://github.com/expressjs/express/blob/master/Readme.md
 [mongodb]: https://github.com/mongodb/mongo/blob/master/README
 [vscode]: https://code.visualstudio.com/insiders/
-[security.md]: https://github.com/kendinikertenkelebek/moltenCraft/blob/master/SECURITY.md
-[repository]: https://github.com/kendinikertenkelebek/moltenCraft
+[security.md]: https://github.com/moltenCraft/client/blob/master/SECURITY.md
+[repository]: https://github.com/moltenCraft/client
 [semver]: https://semver.org
 [yk]: https://twitter.com/seviyorumstop
-[contributors]: https://github.com/kendinikertenkelebek/moltenCraft/graphs/contributors
+[contributors]: https://github.com/moltenCraft/client/graphs/contributors
 
 ## License
 
