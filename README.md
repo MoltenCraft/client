@@ -19,6 +19,8 @@
 
 # About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MoltenCraft/client.svg)](https://greenkeeper.io/)
+
 MoltenCraft is developing for players, via players. You can find items, create collections
 and export these collections for addOns or other platforms.
 
