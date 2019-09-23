@@ -6,20 +6,23 @@ about: Report incorrect or unexpected behavior of moltenCraft
 <!--
 If you need help with moltenCraft installation or usage, please go to the moltenCraft Discord server instead:
   https://discord.gg/{code}
-This issue tracker is only for bug reports and enhancement suggestions. You won't receive any basic help here.
+This issue template is only for bug reports. You won't receive any basic help here.
 -->
 
 **Please describe the problem you are having in as much detail as possible:**
 
-**Include a reproducible code sample here, if possible:**
+**Include a reproducible steps here, if possible:**
 
-```js
+```
+1. Do this
+2. Then this
+3. Got this
 ```
 
 **Further details:**
 
-- moltenCraft version:
-- node.js version:
+- MoltenCraft version:
+- NodeJS version:
 - Operating system:
 - Priority this issue should have – please be realistic and elaborate if possible:
 
