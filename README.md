@@ -10,6 +10,8 @@
   <a><img src="https://img.shields.io/david/MoltenCraft/client?style=flat-square" alt="Dependencies"></a>
   <a><img src="https://badges.greenkeeper.io/MoltenCraft/client.svg?style=flat-square" alt="Greenkeeper"></a>
   <a><img src="https://img.shields.io/github/issues/MoltenCraft/client?style=flat-square" alt="Issues"></a>
+</p>
+<p align="center">
   <a><img src="https://img.shields.io/github/package-json/v/MoltenCraft/client/master?style=flat-square" alt="Version"></a>
   <a><img src="https://img.shields.io/github/languages/code-size/MoltenCraft/client?style=flat-square" alt="Code Size"></a>
   <!-- <a><img src="https://img.shields.io/github/stars/MoltenCraft/client?style=flat-square" alt="Stars"></a> -->
