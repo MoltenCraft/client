@@ -2,7 +2,7 @@
 
 ## Work in Progress
 ### Added
-- CircleCI to github [repository](https://github.com/MoltenCraft/client)
+- [CircleCI](https://circleci.com) to github [repository](https://github.com/MoltenCraft/client)
 - Materials tab to website menu
 - Changelogs for updates
 - API link to main page
