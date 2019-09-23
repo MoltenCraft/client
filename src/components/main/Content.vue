@@ -22,8 +22,8 @@ export default {
           <p class="uk-margin-medium uk-text-lead">{{ $t('main.promotion.text1') }}<br>{{ $t('main.promotion.text2') }}<br>{{ $t('main.promotion.text3') }}</p>
           <div class="uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center" uk-grid>
             <div>
-              <a class="uk-button uk-button-default uk-button-large uk-visible@s" href="https://github.com/uikit/uikit"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</a>
-              <a class="uk-button uk-button-default uk-hidden@s" href="https://github.com/uikit/uikit"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</a>
+              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default {
             <router-link to="/api"><span><i class="fas fa-code" style="margin-right: 7px"></i>{{ $t('main.api') }}</span></router-link>
           </li>
           <li>
-            <span><i class="fas fa-code-branch" style="margin-right: 7px"></i>{{ $t('main.version') }}<span ref="version"></span></span>
+            <span><i class="fas fa-code-branch" style="margin-right: 7px"></i>{{ $t('main.version') }}<span style="margin-left: 7px" ref="version"></span></span>
           </li>
           <li>
             <router-link to="/changelog"><i class="fas fa-tasks" style="margin-right: 7px"></i>{{ $t('main.changelogs') }}</router-link>
