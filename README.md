@@ -5,7 +5,7 @@
 </h1>
 <h4 align="center">Best way to search and export items!</h4>
 <p align="center">
-  <!-- <a><img src="https://img.shields.io/circleci/build/github/kendinikertenkelebek/moltenCraft/master?style=flat-square&token=abc123" alt="Build"></a> -->
+  <a><img src="https://img.shields.io/circleci/build/github/MoltenCraft/client/master?style=flat-square&token=abc123" alt="Build"></a>
   <!-- <a><img src="https://img.shields.io/codacy/grade/abc123?style=flat-square" alt="Grade"></a> -->
   <a><img src="https://img.shields.io/david/MoltenCraft/client?style=flat-square" alt="Dependencies"></a>
   <a><img src="https://badges.greenkeeper.io/MoltenCraft/client.svg?style=flat-square" alt="Greenkeeper"></a>
