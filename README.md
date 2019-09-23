@@ -8,6 +8,7 @@
   <!-- <a><img src="https://img.shields.io/circleci/build/github/kendinikertenkelebek/moltenCraft/master?style=flat-square&token=abc123" alt="Build"></a> -->
   <!-- <a><img src="https://img.shields.io/codacy/grade/abc123?style=flat-square" alt="Grade"></a> -->
   <a><img src="https://img.shields.io/david/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Dependencies"></a>
+  <a><img src="https://badges.greenkeeper.io/MoltenCraft/client.svg?style=flat-square" alt="Greenkeeper"></a>
   <a><img src="https://img.shields.io/github/issues/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Issues"></a>
   <a><img src="https://img.shields.io/github/package-json/v/kendinikertenkelebek/moltenCraft/master?style=flat-square" alt="Version"></a>
   <a><img src="https://img.shields.io/github/languages/code-size/kendinikertenkelebek/moltenCraft?style=flat-square" alt="Code Size"></a>
@@ -18,8 +19,6 @@
 </p>
 
 # About
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/MoltenCraft/client.svg)](https://greenkeeper.io/)
 
 MoltenCraft is developing for players, via players. You can find items, create collections
 and export these collections for addOns or other platforms.
