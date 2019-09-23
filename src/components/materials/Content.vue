@@ -43,7 +43,6 @@ export default {
 
 <template>
   <div class="uk-container">
-
     <form class="uk-margin uk-flex uk-flex-center uk-margin-large-top" method="post" @submit.prevent="findItem">
       <select class="uk-select uk-form-width-medium uk-margin-right" name="expansion" v-model="expansion">
         <option disabled value="">{{ $t('materials.bar.firstDisabled') }}</option>
@@ -72,26 +71,25 @@ export default {
     <div :class="existItems.length > 0 ? 'uk-flex uk-flex-center uk-margin-top uk-text-success': 'uk-flex uk-flex-center uk-margin-top uk-text-warning'">
       <p>{{ $tc('materials.notice.text', existItems.length) }}</p>
     </div>
-
     <table class="uk-table uk-table-hover uk-table-divider" v-if="existItems.length > 0">
-        <thead>
-            <tr>
-                <th>{{ $t('materials.content.id') }}</th>
-                <th>{{ $t('materials.content.icon') }}</th>
-                <th>{{ $t('materials.content.name') }}</th>
-                <th>{{ $t('materials.content.type') }}</th>
-                <th>{{ $t('materials.content.expansion') }}</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="item in existItems" :key="item.id">
-                <td>{{ item.id }}</td>
-                <td><img class="uk-border-pill" width="30" height="30" v-bind:src="`https://render-eu.worldofwarcraft.com/icons/36/${item.icon}.jpg`"></td>
-                <td>{{ item.name }}</td>
-                <td>{{ item.type.name }}</td>
-                <td>{{ item.content.name }}</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>{{ $t('materials.content.id') }}</th>
+          <th>{{ $t('materials.content.icon') }}</th>
+          <th>{{ $t('materials.content.name') }}</th>
+          <th>{{ $t('materials.content.type') }}</th>
+          <th>{{ $t('materials.content.expansion') }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="item in existItems" :key="item.id">
+          <td>{{ item.id }}</td>
+          <td><img class="uk-border-pill" width="30" height="30" v-bind:src="`https://render-eu.worldofwarcraft.com/icons/36/${item.icon}.jpg`"></td>
+          <td>{{ item.name }}</td>
+          <td>{{ item.type.name }}</td>
+          <td>{{ item.content.name }}</td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>

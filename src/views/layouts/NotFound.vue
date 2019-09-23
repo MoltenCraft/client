@@ -5,10 +5,10 @@ export default {
 </script>
 
 <template>
-    <div class="notfound">
-        <h1 class="numbers">{{ $t('notFound.number') }}</h1>
-        <p class="description">{{ $t('notFound.message') }}</p>
-    </div>
+  <div class="notfound">
+    <h1 class="numbers">{{ $t('notFound.number') }}</h1>
+    <p class="description">{{ $t('notFound.message') }}</p>
+  </div>
 </template>
 
 <style lang="less" scoped>
