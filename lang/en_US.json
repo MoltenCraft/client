@@ -60,6 +60,9 @@
     "toys": {},
     "mounts": {},
     "download": {},
+    "api": {
+        "header": "API Documentation"
+    },
     "changelogs": {
         "header": "Changelogs"
     }

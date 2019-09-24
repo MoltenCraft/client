@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from './views/Main.vue'
 import Materials from './views/Materials.vue'
+import Api from './views/Api.vue'
 import NotFound from './views/layouts/NotFound.vue'
 import Changelog from './views/Changelog.vue'
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/materials',
       name: 'Materials',
       component: Materials
+    },
+    {
+      path: '/api',
+      name: 'API',
+      component: Api
     },
     {
       path: '/changelog',

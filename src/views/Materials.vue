@@ -1,5 +1,5 @@
 <script>
-import Content from '@/components/materials/Content.vue'
+import Content from '@/components/materials/Content'
 
 export default {
   name: 'Materials',
