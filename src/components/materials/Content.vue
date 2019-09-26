@@ -1,5 +1,6 @@
 <script>
-import { molten } from '../../util/base'
+import { Connection } from '../../../config'
+const api = new Connection()
 
 export default {
   name: 'Content',
@@ -11,7 +12,7 @@ export default {
     }
   },
   created () {
-    molten.get('materials').then((resoponse) => { this.existItems = resoponse.data })
+    api.get('api/materials').then((resoponse) => { this.existItems = resoponse.data })
   },
   methods: {
     findItem () {
@@ -20,19 +21,19 @@ export default {
         type: this.type || false
       }
       if (!selections.expansion && !selections.type) {
-        molten.get('materials')
+        api.get('api/materials')
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else if (!selections.expansion && selections.type) {
-        molten.get(`materials/${selections.type}`)
+        api.get(`api/materials/${selections.type}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else if (!selections.type && selections.expansion) {
-        molten.get(`materials/${selections.expansion}`)
+        api.get(`api/materials/${selections.expansion}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else {
-        molten.get(`materials/${selections.expansion}/${selections.type}`)
+        api.get(`api/materials/${selections.expansion}/${selections.type}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       }
@@ -87,7 +88,7 @@ export default {
           <td><img class="uk-border-pill" width="30" height="30" v-bind:src="`https://render-eu.worldofwarcraft.com/icons/36/${item.icon}.jpg`"></td>
           <td>{{ item.name }}</td>
           <td>{{ item.type.name }}</td>
-          <td>{{ item.content.name }}</td>
+          <td>{{ item.expansion.name }}</td>
         </tr>
       </tbody>
     </table>
