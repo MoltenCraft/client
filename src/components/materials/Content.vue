@@ -12,7 +12,7 @@ export default {
     }
   },
   created () {
-    api.get('api/materials').then((resoponse) => { this.existItems = resoponse.data })
+    api.get('materials').then((resoponse) => { this.existItems = resoponse.data })
   },
   methods: {
     findItem () {
@@ -21,19 +21,19 @@ export default {
         type: this.type || false
       }
       if (!selections.expansion && !selections.type) {
-        api.get('api/materials')
+        api.get('materials')
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else if (!selections.expansion && selections.type) {
-        api.get(`api/materials/${selections.type}`)
+        api.get(`materials/${selections.type}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else if (!selections.type && selections.expansion) {
-        api.get(`api/materials/${selections.expansion}`)
+        api.get(`materials/${selections.expansion}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       } else {
-        api.get(`api/materials/${selections.expansion}/${selections.type}`)
+        api.get(`materials/${selections.expansion}/${selections.type}`)
           .then((resoponse) => { this.existItems = resoponse.data })
           .then(this.expansion = '', this.type = '')
       }
