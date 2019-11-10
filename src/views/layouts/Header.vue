@@ -17,10 +17,10 @@ export default {
           <ul class="uk-navbar-nav">
             <li><router-link to="/">{{ $t('header.main') }}</router-link></li>
             <li><router-link to="/materials">{{ $t('header.materials') }}</router-link></li>
-            <li><router-link to="/recipes">{{ $t('header.recipes') }}</router-link></li>
             <li><router-link to="/toys">{{ $t('header.toys') }}</router-link></li>
+            <li><router-link to="/pets">{{ $t('header.pets') }}</router-link></li>
+            <li><router-link to="/battlepets">{{ $t('header.battlePets') }}</router-link></li>
             <li><router-link to="/mounts">{{ $t('header.mounts') }}</router-link></li>
-            <li><router-link to="/transmogs">{{ $t('header.transmogs') }}</router-link></li>
           </ul>
         </div>
         <a uk-navbar-toggle-icon href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-navbar-right uk-hidden@m uk-icon uk-navbar-toggle-icon"></a>
@@ -32,10 +32,10 @@ export default {
           <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
             <li><router-link to="/">{{ $t('header.main') }}</router-link></li>
             <li><router-link to="/materials">{{ $t('header.materials') }}</router-link></li>
-            <li><router-link to="/recipes">{{ $t('header.recipes') }}</router-link></li>
             <li><router-link to="/toys">{{ $t('header.toys') }}</router-link></li>
+            <li><router-link to="/pets">{{ $t('header.pets') }}</router-link></li>
+            <li><router-link to="/battlepets">{{ $t('header.battlePets') }}</router-link></li>
             <li><router-link to="/mounts">{{ $t('header.mounts') }}</router-link></li>
-            <li><router-link to="/transmogs">{{ $t('header.transmogs') }}</router-link></li>
           </ul>
         </div>
       </div>

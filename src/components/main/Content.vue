@@ -7,6 +7,23 @@ export default {
     axios.get('https://raw.githubusercontent.com/MoltenCraft/client/master/package.json').then(response => {
       this.$refs.version.innerText = response.data.version
     })
+  },
+  methods: {
+    getOS () {
+      let platform = window.navigator.platform
+      const macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']
+      const windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE']
+      let os = null
+
+      if (macosPlatforms.indexOf(platform) !== -1) {
+        os = 'MacOS'
+      } else if (windowsPlatforms.indexOf(platform) !== -1) {
+        os = 'Windows'
+      } else if (!os && /Linux/.test(platform)) {
+        os = 'Linux'
+      }
+      return os
+    }
   }
 }
 </script>
@@ -21,9 +38,21 @@ export default {
           </p>
           <p class="uk-margin-medium uk-text-lead">{{ $t('main.promotion.text1') }}<br>{{ $t('main.promotion.text2') }}<br>{{ $t('main.promotion.text3') }}</p>
           <div class="uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center" uk-grid>
-            <div>
-              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
-              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fas fa-angle-double-down" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+            <div v-if="this.getOS() === 'MacOS'">
+              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fab fa-apple" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fab fa-apple" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+            </div>
+            <div v-else-if="this.getOS() === 'Windows'">
+              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fab fa-windows" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fab fa-windows" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+            </div>
+            <div v-else-if="this.getOS() === 'Linux'">
+              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fab fa-linux" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fab fa-linux" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+            </div>
+            <div v-else>
+              <router-link class="uk-button uk-button-default uk-button-large uk-visible@s" to="/download"><i class="fab fa-linux" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
+              <router-link class="uk-button uk-button-default uk-hidden@s" to="/download"><i class="fab fa-linux" style="margin-right: 7px"></i>{{ $t('main.download') }}</router-link>
             </div>
           </div>
         </div>

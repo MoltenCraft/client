@@ -2,10 +2,10 @@
     "header": {
         "main": "Main",
         "materials": "Materials",
-        "recipes": "Recipes",
         "toys": "Toys",
-        "mounts": "Mounts",
-        "transmogs": "Transmogs"
+        "pets": "Pets",
+        "battlePets": "Battle Pets",
+        "mounts": "Mounts"
     },
     "notFound": {
         "number": "404",
@@ -60,6 +60,9 @@
     "toys": {},
     "mounts": {},
     "download": {},
+    "api": {
+        "header": "API Documentation"
+    },
     "changelogs": {
         "header": "Changelogs"
     }
