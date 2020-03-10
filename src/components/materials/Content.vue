@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     findItem () {
-      let selections = {
+      const selections = {
         expansion: this.expansion || false,
         type: this.type || false
       }

@@ -10,7 +10,7 @@ export default {
   },
   methods: {
     getOS () {
-      let platform = window.navigator.platform
+      const platform = window.navigator.platform
       const macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']
       const windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE']
       let os = null
